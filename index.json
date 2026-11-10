@@ -9,6 +9,16 @@
       ],
       "releases": [
         {
+          "api_version": ">= 0.2.17",
+          "digest": "sha256:5ff72aabcf97603087659637f616ef6b6f58bae300ec19d9b61c9fb401196da7",
+          "notes": "Direction and LoRA adapters (--adapter, --adapter-scale); faster prefill and streamed decode, with more expert cache on streamed builds; --prefill-batch 4096 keeps the prompt cache and gives the same logits as 2048. Built on Gufo 0.33.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "051a403f7ec492afcd0003dcbfb34b91e86b3890",
+          "version": "0.2.0"
+        },
+        {
           "api_version": ">= 0.2.14",
           "digest": "sha256:5fe9152d7ba2545a79f709a304911e5cb63139de91b7114967bf35c43470a721",
           "platforms": [
